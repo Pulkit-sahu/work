@@ -1,0 +1,70 @@
+.App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .App-header {
+    padding: 3em 0;
+    background-color: #282c34;
+    color: white;
+  }
+  
+  .App p {
+    padding: 0;
+    font-size: 40px;
+    position: relative;
+    left: 250px;
+    top: -110px;
+    height: 60px;
+    font-family: fredoka_oneregular;
+    font-weight: bolder;
+    color: black;
+  }
+
+
+  
+  .App-image {
+    width: 60%;
+    height: auto;
+    padding: 0px;
+    box-sizing: border-box;
+    aspect-ratio: auto 1440 / 605;
+    vertical-align: middle;
+    max-width: 100%;
+    border: 0;
+    display: block!important;
+    width: 100%;
+    height: 100%;
+  }
+  
+
+  .App-footer {
+    
+    position: relative;
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+    top: -100px;
+  }
+
+  .App button {
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left: 240px;
+    top: -118px;
+    height: 60px;
+    justify-content: center;
+    background-color: #151219;
+    height: 50px;
+    width: 250px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .App button:hover {
+    background-color: cadetblue;
+  }
+  

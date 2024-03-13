@@ -1,0 +1,153 @@
+.multi-part-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+  }
+  
+  .progress-bar {
+    width: 400px;
+    height: 110px;
+    border-radius: 10px;
+    border: none;
+    background-color: gray;
+    position: relative;
+    overflow: hidden;
+    
+  }
+
+  form button {
+    margin-top: 40px;
+    width: 140px;
+    border-radius: 5px;
+    height: 40px;
+    border: none;
+    background-color: #121619;
+    color: whitesmoke;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+
+  
+  .progress {
+    height: 100%;
+    background-color: #f87626;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: width 0.5s ease;
+  }
+  
+  .multi-part-form .progress-bar p {
+    color: white;
+    text-transform: uppercase;
+    font-family : 'Times New Roman', Times, serif;
+    text-decoration: double;
+    font-weight: bolder;
+    font-size: 25px;
+    margin: 20px;
+    left: 0px;
+    top: 5px;
+    position: relative;
+  }
+
+  .form-container p {
+    color: black;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left: 180px;
+    top: -10px;
+    height: 50px;
+    justify-content: center;
+    background-color: #151219;
+    height: 40px;
+    width: 250px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 9px;
+    font-size: 20px;
+  }
+  
+  
+  .Forms button {
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left: 890px;
+    top: -25px;
+    height: 60px;
+    justify-content: center;
+    background-color: aliceblue;
+    height: 0px;
+    width: 250px;
+    color: black;
+    text-decoration: underline;
+    font-size: 20px;
+  }
+
+  .multi-part-form .progress-bar h {
+    color: white;
+    font-family : 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-decoration: double;
+    font-size: 25px;
+    margin: 20px;
+    left: 200px;
+    top: -44px;
+    position: relative;
+  }
+  .form-container {
+    width: 50%;
+    max-width: 600px;
+    margin-top: 2rem;
+  }
+  
+  .form-container label{
+    color: black;
+    font-family : 'Times New Roman', Times, serif;
+    text-decoration: double;
+    font-size: 25px;
+    margin: 20px;
+    left: -15px;
+    top: 5px;
+    position: relative;
+  }
+  
+  .form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-container label {
+    margin-top: 1rem;
+  }
+  
+  .form-container input,
+  .form-container textarea {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+  }
+  
+  .form-container textarea {
+    height: 50px;
+  }
+
+  .New-footer {
+    padding: 20px;
+    gap: 20px;
+    top: 20px;
+    text-align: center;
+    background-color: #282c34;
+    color: white;
+    position: relative  ;
+  }
