@@ -3,7 +3,7 @@ import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import Homepages from './pages/Homepages';
 import Navbar from './Components/Navbar';
-import Navbar1 from './Components/Navbar1';
+
 import Forms from './pages/Forms';
 
 function App() {
@@ -11,18 +11,20 @@ function App() {
 
   return (
     <div className="app">
+      
       <Routes>
         {/* Include Navbar only in the Route for the home page */}
         <Route path="/" element={<>
-          <Navbar />
+          <Navbar doShow={true} />
           <Homepages />
         </>} />
         {/* Exclude Navbar from other routes */}
-        
+
         <Route path="/Forms" element={<>
-        <Navbar1/>
-        <Forms/>
-        </>} />
+          <Navbar doShow={false} />
+          <Forms />
+        </>
+        } />
 
       </Routes>
     </div>

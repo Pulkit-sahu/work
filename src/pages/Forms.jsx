@@ -9,6 +9,7 @@ const MultiPartForm = () => {
     const [part, setPart] = useState(1);
     const [formData, setFormData] = useState({});
     const [submitted, setSubmitted] = useState(false);
+    const [progBar,setProgBar]=useState(0);
   
     const handleChange = (e) => {
       setFormData({
@@ -34,22 +35,15 @@ const MultiPartForm = () => {
 
 return (
     <div className="main">
-    <div className="Forms">
-      
-      <Link to='/'>
-      <button>Exit</button>
-        </Link>
-      </div>
-    
     <div className="multi-part-form">
       <div className="progress-bar">
-        <div
-          className="progress"
-          
-          style={{ width: `${(part / 2) * 100}%` }}
-        ></div>
-        <p>About    you</p>
-        <h>Experience</h>
+        <p className={part==1 ? 'hilite' : 'hilite'}>About you</p>
+        <p className={part==2 ? 'hilite' : ''}>Experience</p>
+      </div>
+
+      <div className="bar-prog">
+        <div className="per">{part==1? "50%"  : part>1? "100%" :""}</div>
+        <div className="innerbar" style={{width:part>1?"100%":"50%"}}></div>
       </div>
       <div className="form-container">
         {!submitted && (
