@@ -10,7 +10,6 @@
     "preview": "vite preview",
     "deploy": "vite build && gh-pages -d dist"
   },
-
   "dependencies": {
     "@vitejs/create-app": "^2.5.2",
     "create-vite": "^5.2.2",
@@ -31,5 +30,3 @@
     "vite": "^5.1.4"
   }
 }
-
-
